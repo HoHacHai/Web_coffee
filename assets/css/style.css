@@ -1,0 +1,303 @@
+/*Reset CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inconsolata", sans-serif"
+}
+
+
+.displayBlock {
+    display: block !important;
+}
+
+.btn-gray {
+    color:#fff;
+    background-color: #757575;
+    cursor: pointer;
+    
+}
+
+
+#header {
+    height: 54px;
+    color: #fff;
+    background-color: #000;
+    padding: 0 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+#nav {
+}
+
+#nav > li {
+    float: left;
+    list-style-type: none;
+    width: 25%;
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 54px;
+    text-align: center;
+}
+
+#nav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#slider {
+    padding-top: 50%;
+    background: url("../img/the-coffee-house.jpg") top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .bottom-slider {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 12px 24px;
+    font-weight: 500;
+}
+
+#slider .bottom-left-slider {
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    padding: 0 8px;
+}
+
+#slider .bottom-right-slider {
+    display: inline-block;
+    float: right;
+}
+
+#content {
+    display: flex;
+    background-color: #faf6f0;
+    /* padding-top: 50%; */
+    padding-bottom: 32px;
+    
+}
+
+#content .container-content {
+    
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#content .content-about {
+
+}
+
+#content .header-content {
+    display: flex;
+    margin-top: 74px;
+}
+
+#content .header-about {
+    height: 27px;
+    font-size: 18px;
+    margin: auto;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 4px;
+    font-weight: 400;
+    line-height: 27px;
+
+}
+
+.content-about .about1 {
+    margin-top: 92px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content-about .about2 {
+    margin-top: 18px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content-about .panel-content {
+    margin-top: 18px;
+    border-left: 4px solid #ccc;
+    background-color: #f1f1f1;
+    padding: 0 16px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content-about .panel-content .about3 {
+    padding-top: 18px;
+    margin-bottom: 18px;
+    font-style: italic;
+}
+
+.content-about .panel-content .about4 {
+    
+    padding-bottom: 18px;
+    margin-bottom: 32px;
+}
+
+#content .img-about {
+    width: 700px;
+    background: url('../img/coffeeshop.jpg') top center / cover no-repeat;
+    /* padding-top: 50%; */
+}
+
+#content .open-hour ,
+#content .address{
+    font-size: 18px;
+    font-weight: bold;
+    color:#000;
+    margin-top: 18px;
+    display: inline-block;
+    opacity: 0.8;
+    font-family: "Inconsolata", sans-serif;
+}
+
+#content .sub-open-hour ,
+#content .sub-address {
+    display: inline-block;
+    padding-left: 8px;
+    font-family: "Inconsolata", sans-serif;
+}
+
+#content .nav-menu {    
+    /* position: relative; */
+    width: 100%;
+    height: 43px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    line-height: 43px;
+    background-color: #fff;
+    margin-top: 58px;
+    font-family:  "Inconsolata", sans-serif;
+    font-size: 18px;
+}
+
+#content .nav-menu .menu-eat {
+    float: left;   
+    width: 50%; 
+    text-align: center;
+    display:inline-block;
+}
+
+#content .nav-menu .menu-drink {
+    text-align: center;
+    width: 50%;
+    display: inline-block; 
+}
+
+#content .sub-menu-eat,
+#content .sub-menu-drink {
+    padding: 48px 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* position:absolute; */
+    width: 100%;
+}
+
+#content .name-thing{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#content .content-menu .sub-name-thing{
+    margin-top: 18px;
+    margin-bottom: 54px;
+    color: #757575;
+    font-family: "Inconsolata", sans-serif;
+}
+
+.sub-menu-drink,
+.sub-menu-eat {
+    display: none;
+
+}
+
+.content-menu .img-bottom-content {
+    margin-top: 32px;
+    width: 700px;
+}
+
+.content-where .head-where{
+    margin-top: 74px ;
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif;
+    margin-bottom: 18px;
+}
+
+.content-where .img-where-map {
+    width: 700px;
+    margin-bottom: 18px;
+}
+
+.content-where .tag-where {
+    padding: 4px 8px;
+    background-color: #000;
+    color: #fff;
+    float: left;
+    margin-right: 8px;
+}
+
+.content-where .sub-tab-where {
+    width: 700px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Inconsolata", sans-serif;
+}
+
+.content-where .reserve {
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif;
+    float: left;
+    font-weight: bold;
+    padding-right: 4px;
+    margin-top: 18px;
+}
+
+.content-where .sub-reserve {
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif;
+}
+
+#content .input-name ,
+#content .how-people ,
+#content .message{
+    width: 700px;
+    padding: 16px 8px;
+    margin-top: 18px;
+}
+
+#content .send {
+    margin-top: 18px;
+    padding: 8px 4px;
+    color: #fff;
+    background-color: #000;
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif;   
+    margin-bottom: 18px;
+}
+#content .send:hover{
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+

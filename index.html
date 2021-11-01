@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hai the coffee</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+</head>
+<body>
+    <div class="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#contents">ABOUT</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#where">WHERE</a></li>
+            </ul>
+        </div>
+
+        <div id="slider">
+            <!-- <img src="./assets/img/the-coffee-house.jpg" alt="" class="img-slider"> -->
+                <div class="bottom-slider">
+                    <p class="bottom-left-slider">
+                        Open from 6am to 5pm
+                    </p>
+                    <p class="bottom-right-slider">
+                        15 Adr street, 5015
+                    </p>
+                </div>
+          
+
+        </div>
+
+        <did id="content">
+            <div id="contents" class="container-content">
+                <div class="content-about">
+                    <div class="header-content">
+                        <h5 class="header-about">ABOUT THE CAFE</h5>
+
+                    </div>
+                    <p class="about1">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="about2">In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+                    <div class="panel-content">
+                            <p class="about3">"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+                            <p class="about4">Chef, Coffeeist and Owner: Liam Brown</p>
+                    </div>
+                    <!-- <div class="img-about"></div> -->
+                    <img class="img-about" src="./assets/img/coffeeshop.jpg" alt="">
+                    <p class="open-hour">Opening hours:
+                        <p class="sub-open-hour">everyday from 6am to 5pm.</p>
+                    </p>
+                    <p class="address">Address: 
+                        <p class="sub-address">15 Adr street, 5015, NY</p>
+                    </p>
+                
+                </div>
+                <div id="menu" class="content-menu">
+                    <div class="content-about">
+                        <div class="header-content">
+                            <h5 class="header-about">THE MENU</h5>
+                        </div>
+                    </div>
+                    <div class="nav-menu">
+                        <p class="menu-eat js-btn-eat btn-gray ">Eat
+                        </p>
+                        <p class="menu-drink js-btn-drink ">Drink</p>
+                    </div>
+
+                    <div class="sub-menu-eat js-menu-eat displayBlock ">
+                        <h5 class="name-thing">Bread Basket</h5>
+                        <p class="sub-name-thing">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                        <h5 class="name-thing">Honey Almond Granola with Fruits</h5>
+                        <p class="sub-name-thing">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                        <h5 class="name-thing">Belgian Waffle</h5>
+                        <p class="sub-name-thing">Vanilla flavored batter with malted flour 7.50</p>
+                        <h5 class="name-thing">Scrambled eggs</h5>
+                        <p class="sub-name-thing">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                        <h5 class="name-thing">Blueberry Pancakes</h5>
+                        <p class="sub-name-thing">With syrup, butter and lots of berries 8.50</p>
+                    </div>
+
+                    <div class="sub-menu-drink js-menu-drink ">
+                        <h5 class="name-thing">Coffee</h5>
+                        <p class="sub-name-thing">Regular coffee 2.50</p>
+                        <h5 class="name-thing">Chocolato</h5>
+                        <p class="sub-name-thing">Chocolate espresso with milk 4.50</p>
+                        <h5 class="name-thing">Corretto</h5>
+                        <p class="sub-name-thing">Whiskey and coffee 5.00</p>
+                        <h5 class="name-thing">Iced tea</h5>
+                        <p class="sub-name-thing">Hot tea, except not hot 3.00</p>
+                        <h5 class="name-thing">Soda</h5>
+                        <p class="sub-name-thing">Coke, Sprite, Fanta, etc. 2.50</p>
+                    </div>
+                    <img src="./assets/img/about-menu-coffeehouse2.jpg" alt="" class="img-bottom-content">
+                </div>
+                <div id="where" class="content-where">
+                    <div class="header-content">
+                        <h5 class="header-about">WHERE TO FIND US</h5>
+
+                    </div>
+                    <p class="head-where">Find us at some address at some place.</p>
+                    <img src="./assets/img/content-where-map.jpg" alt="" class="img-where-map">
+                    <p class="tag-where">FYI!</p>
+                    <p class="sub-tab-where"> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                    <p class="reserve">Reserve</p>
+                    <p class="sub-reserve"> a table, ask for today's special or just send us a message:</p>
+                    <input type="text" required name="Name" placeholder="Name" class="input-name">
+                    <input type="text" required name="How many people" placeholder="How many people" class="how-people">
+                    <input type="text" required name="message" placeholder="Message \ Special requirements" class="message">
+                    <button class="send">SEND MESSAGE</button>
+                </div>
+            </div>
+               
+        </did>
+            
+        
+    </div>
+
+    <script>
+        //Gán nút
+
+        const btnEat = document.querySelector('.js-btn-eat')
+        const btnDrink = document.querySelector('.js-btn-drink')
+        const btnMenuEat = document.querySelector('.js-menu-eat')
+        const btnMenuDrink = document.querySelector('.js-menu-drink')
+
+        // sự kiện click eat
+
+        btnEat.addEventListener('click', function (event) {
+            btnEat.classList.add('btn-gray') // tô màu Eat
+            btnDrink.classList.remove('btn-gray')
+
+            // hiện menu ra
+            btnMenuEat.classList.add('displayBlock')
+            btnMenuDrink.classList.remove('displayBlock')
+        })
+
+        btnDrink.addEventListener('click', function (event){
+            btnDrink.classList.add('btn-gray')//tô màu Drink
+            btnEat.classList.remove('btn-gray')
+
+            btnMenuDrink.classList.add('displayBlock')
+            btnMenuEat.classList.remove('displayBlock')
+        })
+
+    </script>
+</body>
+</html>
